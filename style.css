@@ -229,11 +229,11 @@ h3 {
   
 .mainnav ul {
   width: 22%;
-  height: 1600px;
+  height: 1000px;
   float: left;
   text-align: center;
-  background-image: url("http://lorempixel.com/600/400/cats/");
-  background-size: 100%;
+  background-image: url("http://lorempixel.com/800/1600/cats/");
+  background-size: 100% 100%;
 }
   
 .mainnav li {
