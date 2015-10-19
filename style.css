@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  line-height: 1.8rem; 
+  background-color: #FF924C;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 10px 0px 10px;
+  padding: 5px 0px 0px 5px;
+  color: #FF6400;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 10px 0px 10px;
+  color: #000000;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px 0px 10px;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 5.5px;
+  text-align:justify;
+  line-height: 30px;
+  font-family: PT Sans Narrow;
+}
+
+img {
+  max-width: 100%;
+  padding: 0px 0px 16px 0px;
+}
+/*picture in primary content*/
+.left {
+  float: left;
+  margin: 4px 16px 0px 0px;
+}
+
+/*picture in middle and secondary content*/
+.right {
+  float: right;
+  margin: 4px 0px 0px 16px; 
+}
+
+.masthead {
+   background-image: url("http://lorempixel.com/600/400/cats/");
+  padding: 8rem;
+  background-size: 100%; 
+  text-align: center;
+}
+
+ul {
+  padding-left: 0px;
+}
+.mainnav ul li a {
+  display: block;
+  padding: 1rem;
+  white-space: nowrap;
+  text-decoration: none;
+  font-weight: 800;
+  background-color: #000000;
+  color: #FFFFFF;
+  border-bottom:1px solid #FF6400;
+  list-style-type: none;
+  font-family: PT Sans Narrow;
+  
+}
+
+.mainnav a:hover {
+  background: #FF6400;
+}
+
+.primary {
+  padding: 16px;
+  font-family: PT Sans Narrow;
+}
+
+/* Secondary content is '.side'*/
+.side {
+  padding: 16px;
+  font-family: PT Sans Narrow;
+}
+
+.footer {
+  clear: both;
+  padding: 16px;
+  background-color: #000000;
+  color: #FF6400;
+  font-size: 18px;
+}
+
+@media all and (max-width: 35em){
+
+.masthead {
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 10px 0px 10px;
+}
+
+h3 {
+  font-size: 22px;
+  margin: 25px 0px 10px;
+}
+  
+.primary {
+  font-size: 0.8rem;
+  line-height: 25px;
+  font-family: PT Sans Narrow;
+}  
+  
+.side {
+  font-size: 0.8rem;
+  line-height: 25px; 
+  font-family: PT Sans Narrow;
+}
+  
+h1 {
+  line-height: 55px;
+  margin-left: -80px;
+  text-align: center;
+}
+li {
+  text-align: center;
+  font-family: PT Sans Narrow;
+  font-size: 1.2rem;
+}
+}
+  
+@media all and (max-width: 60em) and (min-width: 35em){
+  
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  text-align: center;  
+}
+  
+.primary img {
+  margin-top: 20px;
+  margin-bottom: 10px;    
+}
+  
+.primary h2 {
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+  
+.primary h3 {
+  margin: 50px 0px 0px 0px;
+  font-size: 32px;   
+}
+  
+.side h3 {
+  font-size: 32px;  
+}
+  
+ .side p {
+  font-size: 14px;
+  font-family: PT Sans Narrow;
+}
+  
+.wrapper{
+
+}
+ 
+.mainnav ul{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  
+}
+  
+.mainnav ul li {
+  display: table-cell;
+  width: 25%;
+  text-align: center;
+  font-family: PT Sans Narrow; 
+  font-size: 1.2rem;
+}
+  
+.primary {
+  width: 63%;
+  float: left; 
+  font-family: PT Sans Narrow;
+}
+  
+.side {
+  width: 37%;
+  float: right;
+  font-family: PT Sans Narrow;
+}
+}
+@media all and (min-width: 60em){
+ 
+h1 {
+  font-size: 70px;
+  line-height: 75px;
+}
+
+h2 {
+  font-size: 50px;    
+}
+  
+h3 {
+  font-size: 35px;
+  line-height: 35px;
+}
+  
+.wrapper {
+  margin: 0px auto;
+  max-width: 1600px;
+}
+  
+.mainnav ul {
+  width: 22%;
+  height: 750px;
+  float: left;
+  text-align: center;
+  background-image: url("http://lorempixel.com/600/400/cats/");
+  background-size: 100%;
+}
+  
+.mainnav li {
+  font-size: 1.8rem;
+  font-family: PT Sans Narrow;
+}
+  
+.primary p {
+  font-size: 1.2rem;
+  font-family: PT Sans Narrow;
+}
+  
+.primary {
+  box-sizing: border-box;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  width: 50%;
+  float: left;
+  -webkit-column-gap: 30px;
+  margin: 0px 0px 0px 15px;
+  padding-left: 15px;
+  padding-right: 0px;
+}
+
+.side p {
+  font-size: 1.1rem;
+  font-family: PT Sans Narrow;
+}
+  
+.side {
+  width: 25%;
+  float: right;
+  border-left: 1px solid;
+  margin: 0px 10px 0px 0px;
+  margin-right: 0px;
+  padding-left: 27px;
+}
+  
+.left {
+  margin: 4px 0px 0px 0px;
+}
+  
+.right {
+  margin: 4px 0px 0px 0px;
+}
+  
+.footer {
+  max-width: 1600px;    
+}
+}
+  
